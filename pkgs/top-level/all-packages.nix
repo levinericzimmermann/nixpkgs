@@ -36717,7 +36717,7 @@ with pkgs;
     inherit (darwin.apple_sdk.frameworks) Security;
   };
 
-  lilypond = callPackage ../misc/lilypond { guile = guile_1_8; };
+  lilypond = callPackage ../misc/lilypond { };
 
   lilypond-unstable = callPackage ../misc/lilypond/unstable.nix { };
 
